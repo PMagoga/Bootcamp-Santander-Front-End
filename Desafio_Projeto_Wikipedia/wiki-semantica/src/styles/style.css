@@ -1,0 +1,145 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.header-content img {
+    border-radius: 10px;
+}
+
+/* Navegação lateral (sidebar) */
+nav.sidebar {
+    width: 250px;
+    background: #e8491d;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sidebar h2 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    border-radius: 4px;
+}
+
+.sidebar a:hover {
+    background: #35424a;
+}
+
+/* Conteúdo principal */
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Aside - informações adicionais */
+aside {
+    width: 250px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+    margin-top: 20px;
+    height: fit-content;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    color: #333;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    nav.sidebar,
+    aside {
+        width: 100%;
+        border: none;
+        margin: 0;
+    }
+
+    main {
+        margin: 10px 0;
+    }
+
+    header,
+    footer {
+        text-align: center;
+    }
+}
