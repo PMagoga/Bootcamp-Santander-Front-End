@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #0f0f0f;
+}
+
+/* header */
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+}
+
+#menu-header {
+    padding: 5px 20px 5px 25px;
+}
+
+#logo-header{
+    padding: 5px 25px 5px 20px;
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+#video-header {
+    padding: 5px 15px 5px 0;
+}
+
+#sininho-header {
+    padding: 5px 15px 5px 15px;
+}
+
+#avatar {
+    padding: 5px 15px 5px 15px;
+}
+/* fim do headeer */
+
+/* div principal */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 45px 15px 65px;
+    padding-left: 45px;
+    max-width: 2500px;
+}
+
+.imagem-video-principal{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.imagem-video-principal > img {
+    width: 100%;
+}
+.imagem-principal {
+    flex: 3;
+    padding: 0 25px 25px 25px;
+    max-width: 1050px;
+    flex: 1 1 100%;
+
+}
+.titulo-video, .likes_inscricao {
+    margin: 15px 0;
+}
+
+p {
+    margin: 15px 0; 
+}
+
+
+/* vídeos da side-bar */
+.side-bar {
+    flex: 1;
+    padding: 0 25px 25px 25px;
+    max-width: 450px;
+    flex: 1 1 100%;
+}
+
+aside > img {
+    padding-bottom: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+aside > img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .imagem-principal {
+        flex: 3;
+    }
+    .side-bar {
+        flex: 1;
+    }
+}
