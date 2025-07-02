@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pablo Magoga | Portfolio para o Lab da DIO</title>
+  <meta name="description" content="Portfólio desenvolvedor de Software Pablo Magoga para o desafio de projeto da plataforma DIO: Desenvolvendo um Portfólio Front-End com HTML, CSS e Javascript">
+
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+      <p>Pablo Magoga, Rio Negro - PR, Desenvolvedor de Software.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/PMagoga" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/pablomagoga/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+      <img src="assets/images/imagem3.png" alt="imagem aleatória">
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/tecnologias/java.png" alt="Logo Java">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/tecnologias/js.png" alt="Logo JavaScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/tecnologias/react.png" alt="Logo React">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/tecnologias/spring.png" alt="Logo Spring">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/imagem1.png" alt="Imagem de projetos aleatórios">
+        <div class="card__body">
+          <h3 class="card__title">Imagem de Projetos aleatórios</h3>
+          <p class="card__description">Imagem qualquer</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem de favoritos;</li>
+            <li class="card__item">Carrinho de compras;</li>
+            <li class="card__item">Filtragem por preço e categoria.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/java.png" alt="Logo Java">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/js.png" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/react.png" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/spring.png" alt="Logo Spring">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/imagem2.png" alt="Imagem aleatória 2">
+        <div class="card__body">
+          <h3 class="card__title">Imagem aleatória 2</h3>
+          <p class="card__description">Explicação da imagem</p>
+          <ul class="card__list">
+            <li class="card__item">Postagens relacionadas e em destaque;</li>
+            <li class="card__item">Filtragem por tags e categorias;</li>
+            <li class="card__item">Biografia do autor.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/java.png" alt="Logo Java">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/js.png" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/react.png" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/spring.png" alt="Logo Spring">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/imagem5.png" alt="Imagem aleatória 3">
+        <div class="card__body">
+          <h3 class="card__title">Imagem aleatória 3</h3>
+          <p class="card__description">Um texto qualquer.</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem de favoritos;</li>
+            <li class="card__item">Carrinho de compras;</li>
+            <li class="card__item">Filtragem por preço e categoria.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/java.png" alt="Logo Java">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/js.png" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/react.png" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/tecnologias/spring.png" alt="Logo Spring">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/PMagoga" target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/favicon.png" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Desenvolvedor de Software com sólida experiência em desenvolvimento backend com Java e Spring Boot, aliado a fortes conhecimentos em HTML, CSS e JavaScript para construção de aplicações web modernas e responsivas. Possuo capacidade de atuar em todas as camadas da aplicação, desde a modelagem de APIs RESTful e regras de negócio até a integração com front-end. Comprometido com boas práticas de desenvolvimento, versionamento de código, testes automatizados e metodologias ágeis. Busco continuamente aprimorar minhas habilidades técnicas e entregar soluções escaláveis, seguras e de alto desempenho.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/pablomagoga/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Tecnológo em Big Data e Inteligência Analítica</h4>
+          <span>Dezembro de 2024</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Centro Universitário Leonardo da Vinci</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Pós-graduação Lato Sensu - Especialização</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Instrutor</h4>
+          <span>Escola de Sargentos das Armas</span>
+          <span>Produção de conteúdos educacionais direcionados a 
+            Futuros Sargentos do Exército Brasileiro.
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Elaboração de ementas;</li>
+            <li class="about__item">Ministração de aulas assíncronas;</li>
+            <li class="about__item">Produção de materiais complementares.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Topografia do Artilheiro</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                ESA - Escola de Sargentos das Armas. 2015
+              </p>
+              <p>
+                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
+                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
+                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
+                com o repositório remoto. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Contribuindo em um Projeto Open Source no GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Fev 2023. 1h.
+              </p>
+              <p>
+                Lab prático sobre colaboração em projetos de código aberto.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Organizando seus Estudos com os Roadmaps DIO e o Notion</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Fev 2023. 2h.
+              </p>
+              <p>
+                Otimização dos estudos com os Roadmaps DIO, construindo um caderno de estudos com a ferramenta Notion.
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/PMagoga" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/pablomagoga/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:pmagoga@hotmail.com">
+      <button class="btn btn--primary">
+        <span class="email">pmagoga@hotmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2025. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> pela instrutora 
+      <a href="https://github.com/elidianaandrade" target="_blank">Elidiana Andrade</a>.
+    </p>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

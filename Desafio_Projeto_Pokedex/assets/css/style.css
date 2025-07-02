@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(186, 170, 28, 1) 100%
+  );
+  text-align: center;
+  min-height: 100vh;
+}
+
+main {
+  display: inline-block;
+  margin-top: 2%;
+  position: relative;
+}
+
+.pokedex-image {
+  width: 100%;
+  height: auto;
+  padding: 1.5rem;
+  max-width: 65.5rem;
+}
+
+.pokemon-image {
+  position: absolute;
+  bottom: 50%;
+  left: 37%;
+  transform: translateX(-13%, 20%);
+  height: 18%;
+}
