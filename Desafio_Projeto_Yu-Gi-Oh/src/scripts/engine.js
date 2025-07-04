@@ -58,6 +58,7 @@ async function getRandomCardId() {
 async function createCardImage(randomIdCard, fieldSide) {
     const cardImage = document.createElement("img");
     cardImage.setAttribute("height", "10rem");
+    cardImage.setAttribute("height", "140px");
     cardImage.setAttribute("src", "./src/assets/icons/card-back.png");
     cardImage.setAttribute("data-id", randomIdCard);
     cardImage.classList.add("card");
@@ -73,6 +74,12 @@ async function createCardImage(randomIdCard, fieldSide) {
     });
 
     return cardImage;
+}
+
+async function drawSelectCard(index) {
+    state.cardSprites.avatar.src = cardData[index].img;
+    state.cardSprites.name.innerText = cardData[index].name;
+    state.cardSprites.type.innerText = "Attribute : " + cardData[index].type;
 }
 
 async function drawCards(cardNumbers, fieldSide) {
