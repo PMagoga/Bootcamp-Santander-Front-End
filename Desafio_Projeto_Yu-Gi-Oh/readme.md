@@ -7,3 +7,7 @@ conceitos abordados:
 - Armazenamento e gerenciamento de estado manual
 - Funções limpas
 - Organização de código
+
+
+https://github.com/user-attachments/assets/882d863d-7c95-4adf-b738-44416a331eba
+
